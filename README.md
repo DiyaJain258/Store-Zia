@@ -1,73 +1,134 @@
-# Welcome to your Lovable project
+# StoreZia - Inventory Management System
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/9d53db07-c2b8-4251-93ab-e868c1edd59d
+StoreZia is a web-based Inventory Management System designed to help vendors manage products, monitor stock levels, track purchases, and review customer feedback. The application provides an easy-to-use interface for efficient inventory management and business operations.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+* Vendor Authentication and Login
+* Product Management (Add, View, Update, Delete Products)
+* Inventory Tracking and Stock Monitoring
+* Purchase Management
+* Customer Feedback Management
+* Responsive User Interface
+* REST API Integration
+* Dynamic Data Rendering using JavaScript
 
-**Use Lovable**
+## Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9d53db07-c2b8-4251-93ab-e868c1edd59d) and start prompting.
+### Frontend
 
-Changes made via Lovable will be committed automatically to this repo.
+* HTML5
+* CSS3
+* JavaScript (ES6)
 
-**Use your preferred IDE**
+### Backend
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* Node.js
+* Express.js
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### API
 
-Follow these steps:
+* RESTful APIs
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Project Modules
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Authentication
 
-# Step 3: Install the necessary dependencies.
-npm i
+* Secure vendor login
+* Session management
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Inventory Management
+
+* Add new products
+* Update product details
+* Delete products
+* Monitor stock quantity
+
+### Purchase Tracking
+
+* Record customer purchases
+* Update inventory automatically
+
+### Feedback Management
+
+* Collect customer feedback
+* Display feedback records
+
+## Folder Structure
+
+```text
+StoreZia/
+│
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── assets/
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+## Installation
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Clone the repository
 
-**Use GitHub Codespaces**
+```bash
+git clone https://github.com/your-username/storezia.git
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+2. Navigate to the project directory
 
-## What technologies are used for this project?
+```bash
+cd storezia
+```
 
-This project is built with:
+3. Install dependencies
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm install
+```
 
-## How can I deploy this project?
+4. Start the server
 
-Simply open [Lovable](https://lovable.dev/projects/9d53db07-c2b8-4251-93ab-e868c1edd59d) and click on Share -> Publish.
+```bash
+npm start
+```
 
-## Can I connect a custom domain to my Lovable project?
+5. Open the application in your browser
 
-Yes, you can!
+```text
+http://localhost:3000
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Key Responsibilities
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+* Developed responsive user interfaces using HTML, CSS, and JavaScript.
+* Integrated REST APIs using JavaScript fetch().
+* Implemented dynamic DOM manipulation for real-time data updates.
+* Performed client-side form validation.
+* Improved user experience through responsive design and interactive UI components.
+
+## Future Enhancements
+
+* Search and Filter Functionality
+* Dashboard Analytics
+* Low Stock Alerts
+* Sales Reports
+* Pagination
+* Export Reports to Excel/PDF
+
+## Learning Outcomes
+
+* REST API Integration
+* DOM Manipulation
+* Responsive Web Design
+* Form Validation
+* Asynchronous JavaScript (Promises, Async/Await)
+* Frontend Application Development
+
+## Author
+
+Diya Jain
+Frontend Developer
