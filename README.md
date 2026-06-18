@@ -1,120 +1,73 @@
-# Store-Zia
-# StoreZia
+# Welcome to your Lovable project
 
-StoreZia is a full-stack web application designed to help vendors efficiently manage inventory, track customer purchases, and collect product feedback. The application provides a user-friendly interface and secure vendor authentication to streamline business operations.
+## Project info
 
-## Features
+**URL**: https://lovable.dev/projects/9d53db07-c2b8-4251-93ab-e868c1edd59d
 
-* Vendor Registration and Login
-* Secure Authentication System
-* Inventory Management
-* Product Stock Tracking
-* Customer Purchase History
-* Product Feedback Collection
-* RESTful API Integration
-* Responsive User Interface
+## How can I edit this code?
 
-## Tech Stack
+There are several ways of editing your application.
 
-### Frontend
+**Use Lovable**
 
-* HTML5
-* CSS3
-* JavaScript
+Simply visit the [Lovable Project](https://lovable.dev/projects/9d53db07-c2b8-4251-93ab-e868c1edd59d) and start prompting.
 
-### Backend
+Changes made via Lovable will be committed automatically to this repo.
 
-* Node.js
-* Express.js
+**Use your preferred IDE**
 
-### Tools
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-* Git
-* GitHub
-* Postman
-* VS Code
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## Project Structure
+Follow these steps:
 
-```bash
-StoreZia/
-│
-├── public/
-│   ├── css/
-│   ├── js/
-│
-├── routes/
-│
-├── server.js
-│
-├── package.json
-│
-└── README.md
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
-## Installation
+**Edit a file directly in GitHub**
 
-1. Clone the repository:
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-```bash
-git clone https://github.com/your-username/storezia.git
-```
+**Use GitHub Codespaces**
 
-2. Navigate to the project directory:
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-```bash
-cd storezia
-```
+## What technologies are used for this project?
 
-3. Install dependencies:
+This project is built with:
 
-```bash
-npm install
-```
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-4. Start the application:
+## How can I deploy this project?
 
-```bash
-npm start
-```
+Simply open [Lovable](https://lovable.dev/projects/9d53db07-c2b8-4251-93ab-e868c1edd59d) and click on Share -> Publish.
 
-5. Open your browser and visit:
+## Can I connect a custom domain to my Lovable project?
 
-```bash
-http://localhost:3000
-```
+Yes, you can!
 
-## API Functionalities
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-* User Authentication
-* Product Management
-* Inventory Updates
-* Purchase Tracking
-* Feedback Management
-
-## Learning Outcomes
-
-Through this project, I gained hands-on experience in:
-
-* Full-Stack Web Development
-* Node.js and Express.js
-* REST API Development
-* Authentication and Authorization
-* Inventory Management Systems
-* Responsive Web Design
-* Git and GitHub Version Control
-
-## Future Enhancements
-
-* MongoDB Database Integration
-* JWT Authentication
-* Admin Dashboard
-* Sales Analytics
-* Product Search and Filtering
-* Cloud Deployment using AWS
-
-## Author
-
-**Diya Jain**
-
-Aspiring MERN Stack Developer
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
